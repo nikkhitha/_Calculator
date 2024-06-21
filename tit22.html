@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="tit22.css">
+</head>
+<body>
+    <div class="container">
+      <div>
+        <input  id="display" type="text" readonly>670
+      </div>
+      <div id="button">
+        <button class="btn operator"  onclick="clearvalue('C')">C</button>
+        <button class="btn operator"  id="removebtn" onclick="removedigit('X')">X</button>
+        <button class="btn operator"  onclick="equalto('=')">=</button>
+        <button class="btn operator"  onclick="update('+')">+</button>
+        <button class="btn"  onclick="update('7')">7</button>
+        <button class="btn"  onclick="update('8')">8</button>
+        <button class="btn"  onclick="update('9')">9</button>
+        <button class="btn operator"  onclick="update('-')">-</button>
+        <button class="btn"  onclick="update('4')">4</button>
+        <button class="btn"  onclick="update('5')">5</button>
+        <button class="btn"  onclick="update('6')">6</button>
+        <button class="btn operator"  onclick="update('*')">*</button>
+        <button class="btn"  onclick="update('1')">1</button>
+        <button class="btn"  onclick="update('2')">2</button>
+        <button class="btn"  onclick="update('3')">3</button>
+        <button class="btn operator"  onclick="update('/')">/</button>
+        <button class="btn"  onclick="update('0')">0</button>
+        <button class="btn"  onclick="update('.')">.</button>
+        <button class="btn operator"  onclick="brackets('()')">()</button>
+        <button class="btn operator" onclick="update('%')">%</button>
+      </div>
+    </div>
+
+    <script src="tit22.js"></script>
+</body>
+</html>
